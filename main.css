@@ -12,3 +12,14 @@ border:2px solid brown;
 background: lightseagreen;
 }
 </style>
+<style>
+p
+{
+text-align: left;
+background: cyan;
+}
+div {
+background: cyan;
+color: black;
+}
+</style>
