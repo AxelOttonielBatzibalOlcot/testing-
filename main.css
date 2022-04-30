@@ -6,6 +6,7 @@ background: lightseagreen;
 p {
 text-align: left;
 background: cyan;
+margin-left: 20px;
 }
 div {
 background: cyan;
