@@ -3,6 +3,15 @@ text-align: center;
 border:2px solid brown;
 background: lightseagreen;
 }
+p {
+text-align: left;
+background: cyan;
+}
+div {
+background: cyan;
+color: black;
+text-align: center;
+}
 h2 {
 font-size: 15px;
 text-align: left;
@@ -12,13 +21,4 @@ h3 {
 text-align: center;
 border:2px solid brown;
 background: lightseagreen;
-}
-p {
-text-align: left;
-background: cyan;
-}
-div {
-background: cyan;
-color: black;
-text-align: center;
 }
