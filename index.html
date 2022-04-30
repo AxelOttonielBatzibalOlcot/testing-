@@ -40,5 +40,27 @@
 <img src="leds.png"/>
 Imagen de leds intermitentes: Esta es la imagen de la conexion de dos leds intermitentes con una resistencia de proteccion de 220 OHM para no da?ar los leds ya que el voltaje que proporciona el arduino es de 5v.
 </div>
+<h2>Código de sensor pir mas un bombillo a 110v.</h2>
+<p>/*Codigo desarrollado por: Axel Batzibal*/</p>
+<p>/*Con modulo rele de un canal y un sensor de movimiento (Pir)*/</p>
+<p>int led1=13;          /*Identificacion de los componentes. */</p>
+<p>int Pir=2;         /*Identificacion de los componentes. */</p> 
+<p>void setup()</p> 
+<p>{</p> 
+<p>pinMode(led1, OUTPUT);       /*Verificacion si los componentes son de entrada o de salida*/</p> 
+<p>pinMode(Pir, INPUT);       /*Verificacion si los componentes son de entrada o de salida*/</p> 
+<p>}</p> 
+<p>void loop()       /*Parte del loop*/</p> 
+<p>{</p> 
+<p>int sensor=digitalRead(Pir);  /*Asignamos un valor al sensor*/</p> 
+<p>if (sensor==HIGH)     /*Si el sensor es activado*/</p> 
+<p>}</p> 
+<p>digitalWrite(Led1, HIGH);     /*Enciende el módulo rele*/</p> 
+<p>}</p> 
+<p>else /*De lo contrario*/</p> 
+<p>{</p> 
+<p>digitalWrite(Led1, LOW);  /*El módulo rele se apaga*/</p>
+<p>}</p> 
+<p>}</p>
 </body>
 </html>
