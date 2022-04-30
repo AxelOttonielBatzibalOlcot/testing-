@@ -1,20 +1,9 @@
-<body>
-p2 
-{
-text-align: center;
-}
-</style>
-<style>
-h1
-{
+h1 {
 text-align: center;
 border:2px solid brown;
 background: lightseagreen;
 }
-</style>
-<style>
-p
-{
+p {
 text-align: left;
 background: cyan;
 }
@@ -22,4 +11,3 @@ div {
 background: cyan;
 color: black;
 }
-</style>
